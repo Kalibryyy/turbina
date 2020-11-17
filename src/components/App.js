@@ -16,7 +16,6 @@ function App() {
     setIsSpinnerLoading(true);
     api
       .addLyrics(data)
-      .then((data) => {})
       .catch((err) => {
         console.log(`Error ${err}`);
         setIsSubmitError(true);
